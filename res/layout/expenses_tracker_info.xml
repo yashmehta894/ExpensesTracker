@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+	 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:fadingEdge="vertical"
+		android:fadingEdgeLength="20dip"
+		android:fadeScrollbars="true"
+		android:scrollbarDefaultDelayBeforeFade="1000"
+		android:scrollbarFadeDuration="1000"
+		android:scrollbarStyle="insideInset"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+			
+			<TextView
+		   		android:layout_width="fill_parent"
+		   		android:layout_height="wrap_content"
+		   		style="@style/expenses.tracker.blueText.big"
+		 		android:paddingBottom="10dip"
+		   		android:text="@string/expenses_tracker_info.title"/>
+			
+			<TextView
+				android:id="@+id/expenses_tracker_info_text"
+		   		android:layout_width="fill_parent"
+		   		android:layout_height="wrap_content"/>
+		   		
+		</LinearLayout>	
+			
+	</ScrollView>
+	
+	<Button 			
+		android:id="@+id/expenses_tracker_info_ok"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/expenses_tracker.ok"/>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Expenses Tracker</string>
+    <string name="expenses_tracker.title">Expenses Tracker</string>
+    <string name="expenses_tracker.add_expense">Add Expense</string>
+    <string name="expenses_tracker.add_expense_description">Add new expense</string>
+    <string name="expenses_tracker.view_expenses">Expenses</string>
+    <string name="expenses_tracker.view_expenses_description">View expenses per month</string>
+    <string name="expenses_tracker.add_category">Add Category</string>
+    <string name="expenses_tracker.add_category_description">Add new expense category</string>
+    <string name="expenses_tracker.view_categories">Categories</string>
+    <string name="expenses_tracker.view_categories_description">View expense categories</string>
+    <string name="expenses_tracker.export_expenses">Export Expenses</string>
+    <string name="expenses_tracker.export_expenses_description">Export expenses in a date range</string>
+    <string name="expenses_tracker.remove_files">Remove Export Files</string>
+    <string name="expenses_tracker.remove_files_description">Remove files containing exported expenses</string>
+    <string name="expenses_tracker.menu_clear_data">Clear Expenses</string>
+    <string name="expenses_tracker.menu_settings">Settings</string>
+    <string name="expenses_tracker.menu_info">Information</string>
+    <string name="expenses_tracker.menu_feedback">Send feedback</string>
+    <string name="expenses_tracker.feedback_title">Send email using</string>
+    <string name="expenses_tracker.feedback_subject">Feedback expense tracker</string>
+    <string name="expenses_tracker.save">Save</string>
+    <string name="expenses_tracker.cancel">Cancel</string>
+    <string name="expenses_tracker.yes">Yes</string>
+    <string name="expenses_tracker.no">No</string>
+    <string name="expenses_tracker.ok">OK</string>
+    <string name="expenses_tracker.clear_data_title">Set date prior to which expenses should be cleared.</string>
+    <string name="expenses_tracker.clear_data_message">Do you really want to clear expenses prior to %s?</string>
+    <string name="expenses_tracker.clear_data_success">Successfully cleared expense data.</string>
+    <string name="expenses_tracker.clear_data_unsuccess">Could not find expense data that needs to be cleared.</string>
+    <string name="expenses_tracker.remove_files_message">Do you really want to remove exported files in directory %s?</string>
+    <string name="expenses_tracker.remove_files_files_removed">Successfully removed exported files.</string>
+    <string name="expenses_tracker.remove_files_no_files_removed">Did not find any files to remove.</string>
+    <string name="expenses_tracker.remove_files_not_all_files_removed">Could not remove all exported expense files.</string>
+    <string name="expenses_tracker.preferences">Settings</string>
+    <string name="expenses_tracker_preferences.folder">exportFolder</string>
+    <string name="expenses_tracker_preferences.folder_title">Export Directory</string>
+    <string name="expenses_tracker_preferences.folder_summary">Directory to store exported files in</string>
+    <string name="expenses_tracker_preferences.install_io_file_manager">The Open Intents Filemanager is required for setting a custom export directory. Do you want to install it?</string>
+    <string name="add_expense.title">Add Expense</string>
+    <string name="edit_expense.title">Edit Expense</string>
+    <string name="edit_expense.expense_title">Expense Information</string>
+    <string name="edit_expense.expense_category_title">Expense Category</string>
+    <string name="edit_expense.expense_detail_title">Expense Details</string>
+    <string name="edit_expense.amount_warning">Cannot save data since the expense amount is missing.</string>
+    <string name="add_expense_category.title">Add Expense Category</string>
+    <string name="edit_expense_category.title">Edit Expense Category</string>
+    <string name="edit_expense_category.expense_category_title">Expense Category Information</string>
+    <string name="edit_expense_category.name">Name</string>
+    <string name="edit_expense_category.description">Description</string>
+    <string name="edit_expense_category.name_warning">Cannot save data since the expense-category name is missing.</string>
+    <string name="edit_expense_category.description_warning">Cannot save data since the expense-category description is missing.</string>
+    <string name="export_expenses.title">Export Expenses</string>
+    <string name="export_expenses.from">From Date</string>
+    <string name="export_expenses.to">To Date</string>
+    <string name="export_expenses.export">Export</string>
+    <string name="export_expenses.date_error">Cannot export data since from date is after to date.</string>
+    <string name="export_expenses.error_cannot_find_directoy">Cannot find export directory %s.</string>
+    <string name="export_expenses.error_cannot_write_to_export_directoy">Cannot write to export directory %s.</string>
+    <string name="export_expenses.error_cannot_export_expenses">Cannot export expenses to file %s.</string>
+    <string name="export_expenses.error_cannot_export_expense_categories">Cannot export expense categories to file %s.</string>
+    <string name="export_expenses.info_exported_data">Successfully exported expense data.</string>
+    <string name="export_expenses.info_exported_no_data">No expenses in date range.</string>
+    <string name="view_expenses.title_prefix">Expenses of </string>
+    <string name="view_expenses.no_expenses">No expenses present</string>
+    <string name="view_expenses.totals_title">Total</string>
+    <string name="view_expenses.add_expense">Add expense</string>
+    <string name="view_expenses.delete_expense">Delete expense</string>    
+    <string name="view_expenses.delete_expense_message">Are you sure you want to delete the expense?</string>    
+    <string name="view_expense_categories.title">Expense Categories</string>
+    <string name="view_expense_categories.no_categories">No expense categories available</string>
+    <string name="view_expense_categories.add_expense_category">Add category</string>
+    <string name="view_expense_categories.delete_expense_category">Delete expense category</string>    
+    <string name="view_expense_categories.delete_expense_category_message">Are you sure you want to delete the expense category?</string>
+    <string name="view_expense_categories.delete_unknown_expense_category_message">You cannot delete this essential expense category since it is required by the application.</string>
+    <string name="unknown_expense_category_name">Unknown</string>    
+    <string name="unknown_expense_category_description">Default expense category for expenses of unknown type</string>
+	<string name="expenses_tracker_info.title">Expenses Tracker</string>
+	<string name="expenses_tracker_info.text">Author: Christof Simons &lt;p />
+	Version: 1.0 &lt;p />
+	Project home: http://code.google.com/p/expenses-tracker/
+    </string>
+    
+ 
+    <string name="expenses_tracker_feedback_email">christof.simons123@googlemail.com</string>    
+    <string name="open_intents_file_manager_package">org.openintents.filemanager</string>
+    <string name="open_intents_file_picker_intent">org.openintents.action.PICK_DIRECTORY</string>
+</resources>

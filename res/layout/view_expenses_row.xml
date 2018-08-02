@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dp">
+    
+    <TextView  
+        android:id="@+id/view_expense_row_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"         
+        android:singleLine="true"
+        android:text="2001-01-01"/>
+
+    <TextView  
+        android:id="@+id/view_expense_row_amount"
+        android:gravity="right"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/view_expense_row_date"     
+        android:paddingLeft="5dp"
+        android:layout_alignParentRight="true"     
+        android:singleLine="true"
+        android:text="100"/>
+
+    <TextView  
+        android:id="@+id/view_expense_row_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_expense_row_date"
+   		android:textAppearance="@android:style/TextAppearance.Small"
+  		style="@style/expenses.tracker.blueText"
+        android:singleLine="true"
+        android:text="category name"/>
+
+    <TextView
+        android:id="@+id/view_expense_row_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/view_expense_row_category"     
+        android:layout_below="@id/view_expense_row_amount"
+   		android:textAppearance="@android:style/TextAppearance.Small"
+  		style="@style/expenses.tracker.blueText"
+        android:singleLine="true"
+        android:text="details"/>
+
+</RelativeLayout>

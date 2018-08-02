@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+		
+   	<TextView
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="@string/export_expenses.from"/>
+
+	<Button
+		android:id="@+id/export_expenses_from_date"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="Sa, 2008-10-10"/>
+
+   	<TextView
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="@string/export_expenses.to"/>
+
+	<Button
+		android:id="@+id/export_expenses_to_date"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="Sa, 2008-10-10"/>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"    
+	    android:padding="6dip">
+	    
+		<Button
+			android:id="@+id/export_expenses_export"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+		    android:layout_below="@id/export_expenses_to_date"
+		    android:text="@string/export_expenses.export"/>
+	
+		<Button
+			android:id="@+id/export_expenses_cancel"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/export_expenses_export"
+	        android:layout_alignTop="@id/export_expenses_export"
+		    android:text="@string/expenses_tracker.cancel"/>
+		    
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="expenses.tracker" parent="@android:style/Theme">
+      	
+      	<item name="android:textViewStyle">@style/expenses.tracker.textView</item>
+      
+      	<item name="android:buttonStyle">@style/expenses.tracker.button</item>
+	</style>
+
+	<style name="expenses.tracker.textView" parent="@android:style/Widget.TextView">
+   		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+	
+	
+	
+	
+
+	<style name="expenses.tracker.button" parent="@android:style/Widget.Button">
+   		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>		
+	</style>
+	
+	<style name="expenses.tracker.black_button" parent="@android:style/Widget.Button">
+   		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">#FF000000</item>
+        <item name="android:textColor">#FF6699FF</item>
+	</style>
+	
+  	<style name="expenses.tracker.blueText">
+        <item name="android:textColor">#FF6699FF</item>
+    </style>
+    
+  	<style name="expenses.tracker.blueText.big">
+   		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+  	<style name="expenses.tracker.greyText">
+        <item name="android:textColor">#FF909090</item>
+    </style>
+
+  	<style name="expenses.tracker.greyBackground">
+        <item name="android:background">#FF909090</item>
+    </style>
+        
+</resources>

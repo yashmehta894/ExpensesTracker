@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <ImageButton
+	    	android:id="@+id/view_expenses_prev_month"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    style="@style/expenses.tracker.black_button"		    
+		    android:src="@drawable/icon_dialog_arrow_left"/>	    
+
+	  	<TextView android:id="@+id/view_expenses_totals"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:lines="2"
+	        android:layout_weight="1"
+	        android:gravity="center_horizontal"
+	        android:text="@string/view_expenses.totals_title"/>
+
+	    <ImageButton
+	    	android:id="@+id/view_expenses_next_month"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    style="@style/expenses.tracker.black_button"		    
+		    android:src="@drawable/icon_dialog_arrow_right"/>	    
+
+	</LinearLayout>
+		    
+	    <ListView 
+	    	android:id="@+id/android:list"
+	    	android:layout_weight="1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dip"/>
+	        
+	  	<TextView android:id="@+id/android:empty"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/view_expenses.no_expenses"/>
+        
+</LinearLayout>
